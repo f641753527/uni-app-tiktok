@@ -1,0 +1,54 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home"
+		},
+		{
+			"path": "pages/follow/follow"
+		},
+		{
+			"path": "pages/publish/publish"
+		},
+		{
+			"path": "pages/chat/chat"
+		},
+		{
+			"path": "pages/me/me"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+    "list": [
+			{
+        "pagePath": "pages/home/home"
+    	},
+			{
+        "pagePath": "pages/follow/follow"
+    	},
+			{
+				"pagePath": "pages/publish/publish"
+			},
+			{
+        "pagePath": "pages/chat/chat"
+    	},
+			{
+        "pagePath": "pages/me/me"
+    	}
+		]
+	},
+	"condition": {
+    "current": 0,
+    "list": [{
+            "name": "me",
+            "path": "pages/me/me"
+        },
+        {
+            "name": "chat",
+            "path": "pages/chat/chat"
+        }
+    ]
+	}
+}
